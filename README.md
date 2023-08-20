@@ -12,23 +12,23 @@ The ideal condition in determining employees' salaries is adjusted depending on 
 ## Methodology
 - **Scraping Data**
 
-  Scraped data from LinkedIn and Jobstreet using ipynb file number 1.
+  Scraped data from LinkedIn and Jobstreet using [this code](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/blob/main/1.%20Linkedin%20Job%20Scraping%20OKE.ipynb) and [this](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/blob/main/1.%20Jobstreet%20Job%20Scraping%20OKE.ipynb).
   
 - **Preprocessing Step 1**
 
-  Equated the data writing format, combined data from 2 sources (LinkedIn and Jobstreet), and removed duplicate data so that the data was ready to be processed. The process used ipynb file number 2 and 3.
+  Equated the data writing format, combined data from 2 sources (LinkedIn and Jobstreet), and removed duplicate data so that the data was ready to be processed. The process used [this code](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/blob/main/2.%20Preprocessing%20Hasil%20Scraping%20JobStreet.ipynb), [this](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/blob/main/2.%20Preprocessing%20Hasil%20Scraping%20Linkedin.ipynb), and [this](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/blob/main/3.%20Gabungan%20Data%20Linkedin%20dan%20Jobstreet%20(Hasil%20Preprocessing).ipynb).
 
 - **Exploratory Data Analysis and Data Visualization**
 
-  Analyzed the data and got an overview of the data. The process used ipynb file number 4. The visualization also used Tableau with the result is in the folder ...
+  Analyzed the data and got an overview of the data. The process used code [here](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/blob/main/4.%20EDA%20dari%20Data%20Gabungan.ipynb). The visualization also used Tableau with the result is in the folder ...
   
 - **Preprocessing Step 2**
 
-  Dropped missing or null salaries values in the dataset, performed feature selection, handled other missing values and categorical data, performed target engineering. The process used ipynb file number 5.
+  Dropped missing or null salaries values in the dataset, performed feature selection, handled other missing values and categorical data, performed target engineering. The process used code [here](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/blob/main/5.%20REVISI%20-%20Preprocessing%20Tahap%202%20(Feature%20Selection%20s.d.%20Target%20Engineering).ipynb).
   
 - **Modeling**
 
-  The methods used were: Decision Tree, Random Forest, and Support Vector Regression (SVR). In the modeling process, hyperparameter tuning was also carried out. In this process also used resampling using SMOTE to balance the amount of data in each category (name of profession). The process used ipynb file number 6 and 7.
+  The methods used were: Decision Tree, Random Forest, and Support Vector Regression (SVR). In the modeling process, hyperparameter tuning was also carried out. In this process also used resampling using SMOTE to balance the amount of data in each category (name of profession). The process used [this code](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/blob/main/6.%20REVISI%20-%20Modelling%20(Perbandingan%20Metode%20%26%20Learning%20Curve).ipynb) and [this](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/blob/main/7.%20REVISI%20-%20Modelling%20Ulang%20Menggunakan%20Decision%20Tree%20dan%20SMOTE.ipynb).
   
 - **Model Evaluation**
 
@@ -41,7 +41,9 @@ End-users can predict the monthly salary based on these variables:
 - **Level of employment:** Intern, Entry Level, Associate, Mid Level Senior.
 - **Years of Experience:** How many years of experience.
 - **Company size:** 1-50 employees, 51-200 employees, 201-500 employees, 501-1,000 employees, 1,001-5,000 employees, >5,000 employees.
-- **Industry type.:** Events, Economics, Human Resources, Finance, Construction, Consulting, Media, Marketing & Advertising, Information and Communication Technology, Transportation.
+- **Industry type:** Events, Economics, Human Resources, Finance, Construction, Consulting, Media, Marketing & Advertising, Information and Communication Technology, Transportation.
+
+Code for deployment can be accessed in [this repository](https://github.com/wandalistathea/prediksi-gaji-profesi-data/tree/main).
 
 ## Conclusions
-Decision Tree Regressor using SMOTE with the amount of data per category "name of data profession" n=87 resulted in a better performance with the evaluation results were **R-squared of 0.669 (66.9%), RMSE of 147.817, and MAPE of 14.1%**.
+Decision Tree Regressor using SMOTE with the amount of data per category "name of the profession" n=87 resulted in a better performance with the evaluation results were **R-squared of 0.669 (66.9%), RMSE of 147.817, and MAPE of 14.1%**.
