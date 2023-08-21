@@ -20,7 +20,7 @@ The ideal condition in determining employees' salaries is adjusted depending on 
 
 - **Exploratory Data Analysis and Data Visualization**
 
-  Analyzed the data and got an overview of the data. The process used code [here](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/blob/main/4.%20EDA%20dari%20Data%20Gabungan.ipynb). The visualization also used Tableau with the result is in [this folder](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/tree/main/EDA%20Picture%20in%20Tableau)
+  Analyzed the data and got an overview of the data. The process used code [here](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/blob/main/4.%20EDA%20dari%20Data%20Gabungan.ipynb). The visualization also used Tableau with the result is in [this folder](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/tree/main/EDA%20Picture%20in%20Tableau).
   
 - **Preprocessing Step 2**
 
@@ -36,12 +36,12 @@ The ideal condition in determining employees' salaries is adjusted depending on 
 
 ## Web App (Flask)
 End-users can predict the monthly salary based on these variables:
-- **Name of the profession:** Data Analyst, Data Scientist, Data Engineer.
-- **Company location:** Bali, Banten, Yogyakarta, Jakarta, West Java, East Java, West Kalimantan.
-- **Level of employment:** Intern, Entry Level, Associate, Mid Level Senior.
-- **Years of Experience:** How many years of experience.
-- **Company size:** 1-50 employees, 51-200 employees, 201-500 employees, 501-1,000 employees, 1,001-5,000 employees, >5,000 employees.
-- **Industry type:** Events, Economics, Human Resources, Finance, Construction, Consulting, Media, Marketing & Advertising, Information and Communication Technology, Transportation.
+- **Name of the profession:** Data Analyst, Data Scientist, Data Engineer
+- **Company location:** Bali, Banten, Yogyakarta, Jakarta, West Java, East Java, West Kalimantan
+- **Level of employment:** Intern, Entry Level, Associate, Mid Level Senior
+- **Years of Experience:** How many years of experience
+- **Company size:** 1-50 employees, 51-200 employees, 201-500 employees, 501-1,000 employees, 1,001-5,000 employees, >5,000 employees
+- **Industry type:** Events, Economics, Human Resources, Finance, Construction, Consulting, Media, Marketing & Advertising, Information and Communication Technology, Transportation
 
 Code for deployment can be accessed in [this repository](https://github.com/wandalistathea/prediksi-gaji-profesi-data/tree/main).
 
