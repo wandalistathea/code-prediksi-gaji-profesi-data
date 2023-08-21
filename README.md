@@ -2,7 +2,7 @@
 
 ## Project Overview
 The ideal condition in determining employees' salaries is adjusted depending on their competencies and qualifications. But not infrequently, companies generalize the job salary even though the qualifications are different. On the other hand, prospective employees are also sometimes confused about how much they should earn based on their background and capabilities.
-- Predict the salary of data-related jobs (Data Analyst, Data Scientist, and Data Engineer) based on: name of the profession, company location, level of employment, years of experience, company size, and industry type.
+- Predict the salary of data-related jobs (Data Analyst, Data Scientist, and Data Engineer) in Indonesia based on: name of the profession, company location, level of employment, years of experience, company size, and industry type.
 - The dataset was taken by scraping the LinkedIn (November 4, 2021) and Jobstreet (December 6, 2021) sites so the point of view of data is from the company side.
 - Deploy a Machine Learning model using Flask and Heroku so the end-users can input some data and get the result of salary prediction directly. Actually, the web app can be accessed in [prediksi-gaji-profesi-data.herokuapp.com](https://prediksi-gaji-profesi-data.herokuapp.com/) but no longer now. So [here](https://drive.google.com/file/d/12NY84jRMX-ARWeOhNn8no9AITNGdED11/view?usp=sharing) is the screen recording of that web app on my local page.
 
@@ -37,7 +37,7 @@ The ideal condition in determining employees' salaries is adjusted depending on 
 ## Web App (Flask)
 End-users can predict the monthly salary based on these variables:
 - **Name of the profession:** Data Analyst, Data Scientist, Data Engineer
-- **Company location:** Bali, Banten, Yogyakarta, Jakarta, West Java, East Java, West Kalimantan
+- **Company location:** Bali, Banten, Yogyakarta, Jakarta, West Java, East Java, West Kalimantan (provinces in Indonesia)
 - **Level of employment:** Intern, Entry Level, Associate, Mid Level Senior
 - **Years of Experience:** How many years of experience
 - **Company size:** 1-50 employees, 51-200 employees, 201-500 employees, 501-1,000 employees, 1,001-5,000 employees, >5,000 employees
