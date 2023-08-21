@@ -46,4 +46,4 @@ End-users can predict the monthly salary based on these variables:
 Code for deployment can be accessed in [this repository](https://github.com/wandalistathea/prediksi-gaji-profesi-data/tree/main).
 
 ## Conclusions
-Decision Tree Regressor using SMOTE with the amount of data per category "name of the profession" n=87 resulted in a better performance with the evaluation results were **R-squared of 0.669 (66.9%), RMSE of 147.817, and MAPE of 14.1%**.
+Decision Tree Regressor using SMOTE with the amount of data per category "name of the profession" n=87 resulted in a better performance with the evaluation results were **R-squared of 0.683 (68.3%), RMSE of 144.4, and MAPE of 12.6%**.
