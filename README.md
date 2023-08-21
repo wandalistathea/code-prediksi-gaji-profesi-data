@@ -20,7 +20,7 @@ The ideal condition in determining employees' salaries is adjusted depending on 
 
 - **Exploratory Data Analysis and Data Visualization**
 
-  Analyzed the data and got an overview of the data. The process used code [here](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/blob/main/4.%20EDA%20dari%20Data%20Gabungan.ipynb). The visualization also used Tableau with the result is in the folder ...
+  Analyzed the data and got an overview of the data. The process used code [here](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/blob/main/4.%20EDA%20dari%20Data%20Gabungan.ipynb). The visualization also used Tableau with the result is in [this folder](https://github.com/wandalistathea/code-prediksi-gaji-profesi-data/tree/main/EDA%20Picture%20in%20Tableau)
   
 - **Preprocessing Step 2**
 
